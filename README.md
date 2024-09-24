@@ -15,24 +15,25 @@ Before you begin, ensure you have met the following requirements:
 
 ## Installation
 
-1. *Clone the Repository:*
-
-   git clone https://github.com/petyank/price_monitorning_python.git
-   cd price_monitorning_python
-   
+1. Clone the Repository:
+```
+git clone https://github.com/petyank/price_monitorning_python.git
+cd price_monitorning_python
+```
 2. Install the required packages:
-   pip install -r requirements.txt
-
-3. Download and place ChromeDriver:
-
-- Download the appropriate ChromeDriver.
-- Place the ChromeDriver executable in a directory that is in your system's PATH or in the project directory.
+```
+pip install -r requirements.txt
+```
+4. Download and place ChromeDriver:
+   - Download the appropriate ChromeDriver.
+   - Place the ChromeDriver executable in a directory that is in your system's PATH or in the project directory.
 
 ## Usage
 
 1. For running the tests, run the following command:
-   behave
-
+```
+behave
+```
 This command will execute the BDD test scenarios defined in the features directory.
 
 ## Project Structure
